@@ -1,0 +1,24 @@
+body {
+    background-color: hsl(212, 45%, 89%)
+}
+
+.container {
+    max-width: 18rem;
+}
+
+img {
+    max-width: 100%;
+    min-width: inherit;
+}
+
+p:first-of-type {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    font-size: 15px;
+}
+
+p:nth-of-type(2) {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+}
