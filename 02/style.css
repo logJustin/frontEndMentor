@@ -1,0 +1,149 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.bigContainer {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.results {
+    background-image: linear-gradient(hsl(251, 100%, 63%), hsl(242, 80%, 54%));
+    max-height: 355px;
+}
+
+.circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-image: linear-gradient(#4a23ce, #4734f0);
+}
+
+.number {
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: hsl(0, 0%, 100%)
+}
+
+.great {
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%)
+}
+
+.paraText,
+.subNumber,
+.yourResult {
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+}
+
+.subNumber {
+    font-size: 13px;
+}
+
+.para {
+    font-size: 12px;
+    max-width: 80%;
+}
+
+.sum {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(224, 30%, 27%);
+}
+
+.cat {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+img {
+    height: 15px;
+    width: 15px;
+}
+
+.react {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+}
+
+.score {
+    color: hsl(224, 30%, 27%);
+}
+
+.outofScore {
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(241, 100%, 89%);
+    white-space: nowrap;
+}
+
+.btn {
+    border-radius: 20px;
+    color: hsl(241, 100%, 89%);
+    background-color: hsl(224, 30%, 27%);
+    border: 1px solid hsl(224, 30%, 27%);
+}
+
+/* desktop */
+@media only screen and (min-width: 426px) {
+    .results {
+        max-width: 255px;
+        border-radius: 20px;
+    }
+
+    .summary {
+        max-height: 340px;
+        min-width: 255px;
+    }
+
+    .bigContainer {
+        align-items: center;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 426px) {
+
+
+
+    .bigContainer {
+        padding: 0px;
+    }
+
+    .results {
+        width: 100vw;
+        padding: 0px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .summary {
+        min-width: 95vw;
+    }
+
+    .para {
+        max-width: 220px;
+    }
+}
