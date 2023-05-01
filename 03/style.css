@@ -1,0 +1,165 @@
+body {
+    background-color: hsl(0, 0%, 94%);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+.form-control {
+    background-image: none !important;
+    border-radius: 5px !important;
+    font-size: 25px;
+    height: 50px;
+    max-width: 170px;
+    padding-right: 0px !important;
+}
+
+.form-label {
+    color: hsl(0, 1%, 44%);
+    font-size: small;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.formContainer {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px 15px 125px 15px;
+}
+
+.holder {
+    color: hsl(259, 100%, 65%);
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.inputContainer {
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 150px;
+    padding-right: 0px;
+}
+
+.invalid-feedback {
+    color: hsl(0, 100%, 67%);
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.resultContainer {
+    margin-top: -40px;
+}
+
+.rowContainer {
+    margin-bottom: -50px;
+    margin-top: -10px;
+}
+
+svg {
+    max-height: fit-content;
+}
+
+.duration {
+    color: hsl(0, 0%, 8%);
+    font-size: 90px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+hr {
+    background: hsl(0, 1%, 44%);
+    border: none;
+    flex: 1;
+    height: 1.5px;
+}
+
+.btn {
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+
+@media screen and (max-width: 769px) {
+    .formContainer {
+        min-width: 95vw;
+    }
+
+    .btn {
+        width: 60px !important;
+        height: 60px !important;
+        position: absolute;
+    }
+
+    svg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    g {
+        stroke-width: 3;
+    }
+
+
+    .rowContainer {
+        margin-top: 30px;
+    }
+
+    .duration,
+    .holder {
+        font-size: 50px;
+    }
+
+    .groupResultsContainer {
+        padding-top: 60px;
+    }
+
+    .resultContainer {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 2559px) {
+    .formContainer {
+        min-width: 60vw;
+    }
+
+    .btn {
+        width: 60px !important;
+        height: 60px !important;
+        /* position: absolute; */
+    }
+
+    svg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    g {
+        stroke-width: 3;
+    }
+
+
+    .rowContainer {
+        margin-top: 30px;
+    }
+
+    .duration,
+    .holder {
+        font-size: 50px;
+    }
+
+    .groupResultsContainer {
+        padding-top: 60px;
+    }
+
+    .resultContainer {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .formContainer {
+        max-width: 40vw;
+    }
+}
