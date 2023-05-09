@@ -7,7 +7,7 @@ const fetchData = async () => {
         const data = await response.json();
 
         chartData = data.map(item => ({ x: item.day, y: item.amount }));
-
+        // build the chart
         const myChart = new Chart(ctx.canvas, {
             type: 'bar',
             data: {
