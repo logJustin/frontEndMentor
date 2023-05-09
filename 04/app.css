@@ -1,0 +1,47 @@
+body {
+    min-height: 100vh;
+    font-family: 'DM Sans', sans-serif !important;
+    /* Cream */
+    background-color: hsl(27, 66%, 92%) !important;
+}
+
+.sectionOne {
+    /* Cyan */
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 15px;
+}
+
+.sectionTwo {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.boldFont {
+    font-weight: 700;
+}
+
+.little {
+    font-size: 14px;
+}
+
+hr {
+    color: hsl(27, 66%, 92%) !important;
+    height: 5px !important;
+}
+
+.cream {
+    color: hsl(42, 7%, 61%)
+}
+
+
+@media screen and (max-width: 416px) {
+    .cream {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 429px) {
+    .cream {
+        font-size: 15px;
+    }
+}
