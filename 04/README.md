@@ -31,8 +31,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/logJustin/frontEndMentor/tree/main/04)
-- Live Site URL: [Add live site URL here](https://logjustin.github.io/frontEndMentor/04/)
+- Solution URL: [Repository](https://github.com/logJustin/frontEndMentor/tree/main/04)
+- Live Site URL: [Deployed Project](https://logjustin.github.io/frontEndMentor/04/)
 
 ### Built with
 
@@ -47,7 +47,7 @@
 ### What I learned
 
 - Using a prior known software like Chart.JS was mostly a good idea. It assisted in building my chart in a responsive format.
-- However, re-stylizing to meet a specific look was about 60% of the project.
+- However, re-stylizing to meet the required look was about 60% of the project.
 
 
 ### Useful resources
@@ -58,5 +58,5 @@
 
 ## Author
 
-- GitHub - [Add your name here](https://www.your-site.com)
+- GitHub - [@logJustin](https://www.your-site.com)
 - Frontend Mentor - [@logJustin](https://www.frontendmentor.io/profile/logJustin)
