@@ -25,9 +25,7 @@
 - Use the JSON data file provided to dynamically size the bars on the chart
 
 ### Screenshot
-
-![](./screenshot.jpg)
-
+![Screenshot](https://github.com/logJustin/frontEndMentor/assets/33402995/5a9b3f68-1abe-4289-ac5b-f2da5d4e0298)
 
 ### Links
 
