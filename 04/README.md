@@ -21,7 +21,7 @@
 
 ### The challenge
 
-Users should be able to:
+This was wild
 
 - View the bar chart and hover over the individual bars to see the correct amounts for each day
 - See the current day’s bar highlighted in a different colour to the other bars
